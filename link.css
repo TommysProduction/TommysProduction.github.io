@@ -1,0 +1,101 @@
+body {
+    background: radial-gradient(circle,#63247E,#2F808C);
+    color: white;
+    text-align: center;
+    min-height: 100vh;
+    position: relative;
+}
+
+.title {
+    font-size: 50px;
+    font-family: 'Noto Sans JP',sans-serif;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.home, .introduction, .position, .rule, .link {
+    position: relative;
+    left:  10px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Noto Sans JP',sans-serif;
+}
+
+.item {
+    font-size: 30px;
+    font-family: 'Noto Sans JP',sans-serif;
+    color: white;
+    text-align: left;
+    margin-left: 4em;
+}
+
+.nowtime {
+    position: fixed;
+    padding: 8px 19px;
+    margin: 2em 0;
+    color: white;
+    border-top: solid  white;
+    border-bottom: solid  white;
+    font-size: 20px;
+    bottom: 0px;
+    left: 10px;
+    float: left;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    bottom: 0;
+}
+
+.contents {
+    font-size: 20px;
+    text-align: left;
+    margin-left: 6em;
+    margin-right: 1em;
+}
+
+.instagram_button {
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    transition: .6s;
+}
+
+.instagram_button .instagram {
+    border-radius: 13px;
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    font-size: 35px;
+    line-height: 50px;
+    background: -webkit-linear-gradient(135deg,#427EFF 0%,#F13F79 70%) no-repeat;
+    background: linear-gradient(135deg,#427EFF 0%,#F13F79 70%) no-repeat;
+    overflow: hidden;
+}
+
+.instagram_button .instagram:before {
+    content: '';
+    position: absolute;
+    top: 23px;
+    left: -18px;
+    width: 60px;
+    height: 60px;
+    background: -webkit-repeating-radial-gradient(#FFDB2C 10%, rgba(255,105,34,0.65) 55%,rgba(255,88,96,0) 70%);
+    background: radial-gradient(#FFDB2C 10%, rgba(255,105,34,0.65) 55%,rgba(255,88,96,0)70%);
+}
+
+.instagram_button .fa-instagram {
+    color:white;
+    line-height: 50px;
+    position: relative;
+    z-index: 2
+}

@@ -1,0 +1,70 @@
+body {
+    background: radial-gradient(circle,#63247E,#2F808C);
+    color: white;
+    text-align: center;
+    min-height: 100vh;
+    position: relative;
+}
+
+.title {
+    font-size: 50px;
+    font-family: 'Noto Sans JP',sans-serif;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.home, .introduction, .position, .rule, .link {
+    position: relative;
+    left:  10px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Noto Sans JP',sans-serif;
+}
+
+.item {
+    font-size: 30px;
+    font-family: 'Noto Sans JP',sans-serif;
+    color: white;
+    text-align: left;
+    margin-left: 4em;
+}
+
+th {
+    border: solid 1px ;
+    border: double;
+    padding: 5px;
+
+}
+
+td {
+    border: solid 1px;
+    padding: 5px;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.nowtime {
+    position: fixed;
+    padding: 8px 19px;
+    margin: 2em 0;
+    color: white;
+    border-top: solid  white;
+    border-bottom: solid  white;
+    font-size: 20px;
+    bottom: 0px;
+    left: 10px;
+    float: left;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    bottom: 0;
+}
